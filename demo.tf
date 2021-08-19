@@ -1,11 +1,11 @@
-variable "sample" {
+variable "example" {
   default = "hello terraform"
 }
 
-output "sample" {
-  value = var.sample
+output "example" {
+  value = var.example
 }
 
-output "sample" {
-  value = "value is ${var.sample}"
+output "example" {
+  value = "value is ${var.example}"
 }
